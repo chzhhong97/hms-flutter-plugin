@@ -326,7 +326,7 @@ public class HmsLocalNotificationController {
 
                 String color = BundleUtils.get(bundle, NotificationConstants.COLOR);
                 if (color != null) {
-                    notification.setColor(Color.parseColor(color).intValue());
+                    notification.setColor(Color.parseColor(color));
                 }
             }
 
